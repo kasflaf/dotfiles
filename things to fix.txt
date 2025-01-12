@@ -1,4 +1,3 @@
-copying from electron app
 icon in terminal
 git diff and git mergetool not working properly
 set up animated cursor
