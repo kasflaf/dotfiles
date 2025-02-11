@@ -1,4 +1,0 @@
-icon in terminal
-git diff and git mergetool not working properly
-set up animated cursor
-create vpn server

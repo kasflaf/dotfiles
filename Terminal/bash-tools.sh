@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # variables
 SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
@@ -30,20 +30,16 @@ sudo dnf install eza
 # rg (grep alternative)
 sudo dnf install ripgrep
 
-# oh-my-bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-
-#clifm (easy to use cli file manager)
-sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:archcrack/Fedora_40/home:archcrack.repo
-sudo dnf install 
-
 # tldr (kinda like man)
 sudo dnf install tldr
-
-# thefuck (corrects your previous command)
-sudo dnf install thefuck
 
 # gh cli
 sudo dnf install gh
 
-cp $SCRIPT_DIR/.bashrc ~/.bashrc
+# fd find (find alternative)
+sudo dnf install fd-find
+
+# yazi file manager manual build
+
+# oh-my-bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
